@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Augusta';
+    src: url('Augusta-Regular.woff2') format('woff2'),
+        url('Augusta-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Chapaza';
+    src: url('Chapaza-Regular.woff2') format('woff2'),
+        url('Chapaza-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
