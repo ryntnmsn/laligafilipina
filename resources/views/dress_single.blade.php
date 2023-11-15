@@ -15,9 +15,9 @@
             @endphp
 
             @foreach ($images as $image)
-                <div class="flex items-center border border-default duration-300 ease-in-out hover:-translate-y-2 cursor-pointer sepia hover:sepia-0 bg-default group">
+                <div class="flex items-center border border-default duration-300 ease-in-out hover:-translate-y-2 cursor-pointer bg-default group">
                     <a href="{{ asset('storage/' . $image) }}" data-lightbox="{{ $image }}" data-fslightbox class="flex items-center">
-                        <img src="{{ asset('storage/' . $image) }}" data-lightbox="{{ $image }}" alt="" class="opacity-70 group-hover:opacity-100 h-auto" loading="lazy">
+                        <img src="{{ asset('storage/' . $image) }}" data-lightbox="{{ $image }}" alt="" class="h-auto" loading="lazy">
                     </a>
                 </div>
             @endforeach

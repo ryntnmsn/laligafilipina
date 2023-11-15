@@ -9,8 +9,8 @@
             @foreach ($games as $game)
                 <div class="mb-8">
                     <div class="flex-none">
-                        <div class="sepia bg-default hover:sepia-0 group duration-300 ease-in-out">
-                            <a href="{{ asset('storage/' . $game->image) }}" data-fslightbox  class="opacity-70 group-hover:opacity-100">
+                        <div class="bg-default group duration-300 ease-in-out">
+                            <a href="{{ asset('storage/' . $game->image) }}" data-fslightbox>
                                 <img src="{{ asset('storage/' . $game->image) }}" alt="" class="w-full" loading="lazy">
                             </a>
                         </div>
