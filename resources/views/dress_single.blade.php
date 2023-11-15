@@ -17,7 +17,7 @@
             @foreach ($images as $image)
                 <div class="border border-default duration-300 ease-in-out hover:-translate-y-2 cursor-pointer sepia hover:sepia-0 bg-default group">
                     <a href="{{ asset('storage/' . $image) }}" data-lightbox="{{ $image }}" data-fslightbox>
-                        <img src="{{ asset('storage/' . $image) }}" data-lightbox="{{ $image }}" alt="" class="opacity-70 group-hover:opacity-100">
+                        <img src="{{ asset('storage/' . $image) }}" data-lightbox="{{ $image }}" alt="" class="opacity-70 group-hover:opacity-100" loading="lazy">
                     </a>
                 </div>
             @endforeach

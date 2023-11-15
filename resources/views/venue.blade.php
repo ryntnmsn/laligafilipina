@@ -10,7 +10,7 @@
         </p>
 
         <div class="flex flex-col justify-center">
-            <img src="{{ asset('images/the_fifth_venue.png') }}" alt="" class="opacity-100">
+            <img src="{{ asset('images/the_fifth_venue.png') }}" alt="" class="opacity-100" loading="lazy">
         </div>
     </div>
 @endsection

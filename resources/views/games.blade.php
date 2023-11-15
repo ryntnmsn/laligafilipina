@@ -12,7 +12,7 @@
                     <div class="flex-none">
                         <div class="sepia bg-default hover:sepia-0 group duration-300 ease-in-out">
                             <a href="{{ asset('storage/' . $game->image) }}" data-fslightbox  class="opacity-70 group-hover:opacity-100">
-                                <img src="{{ asset('storage/' . $game->image) }}" alt="" class="">
+                                <img src="{{ asset('storage/' . $game->image) }}" alt="" class="w-full" loading="lazy">
                             </a>
                         </div>
                         <div class="text-center bg-default py-4">
