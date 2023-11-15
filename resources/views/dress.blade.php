@@ -4,7 +4,6 @@
     <div class="flex flex-col">
         <h1 class="text-default text-5xl mb-3">Dress Codes</h1>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet excepturi omnis impedit enim accusamus soluta fugiat ipsum dolore quia sed temporibus veritatis ad, officiis incidunt deserunt doloremque sit! Quia, rem.
         </p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
             @foreach ($dressCodes as $dressCode)

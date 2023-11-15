@@ -4,7 +4,6 @@
     <div class="flex flex-col">
         <h1 class="text-default text-5xl mb-3">Games</h1>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis numquam iusto quae, rem ipsum iure commodi, nisi ullam dignissimos voluptatibus ab animi quasi illum magnam illo nihil totam ea error?
         </p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 ">
             @foreach ($games as $game)
