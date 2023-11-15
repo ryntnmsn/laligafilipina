@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
+/* @font-face {
     font-family: 'Augusta';
     src: url('/../public/fonts/Augusta-Regular.woff2') format('woff2'),
         url('/../public/fonts/Augusta-Regular.woff') format('woff');
@@ -18,7 +18,7 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}
+} */
 
 html, body {
     background: rgb(255,243,223);
