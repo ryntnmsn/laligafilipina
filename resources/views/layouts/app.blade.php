@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>YEP - La Liga Filipina</title>
 
-    <style>
+    {{-- <style>
         @font-face {
             font-family: 'Augusta';
             src: url('{{ asset("fonts/Augusta-Regular.woff2") }}') format('woff2'),
@@ -24,7 +24,7 @@
             font-style: normal;
             font-display: swap;
         }
-    </style>
+    </style> --}}
 
     @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
