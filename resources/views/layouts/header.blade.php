@@ -41,10 +41,10 @@
             </ul>
         </div>
     </div>
-    <div class="flex md:hidden font-augusta pl-4 border-t-4 border-b-4 border-default mt-1 bg-default text-amber-50 items-center">
-        <div class="flex-1 text-center">YEP 2023</div>
-        <div class="flex-1 text-center">December 22, 2023</div>
-        <div class="flex-1 text-center">La Liga Filipina</div>
+    <div class="flex space-x-4 md:hidden font-augusta pl-4 border-t-4 border-b-4 border-default mt-1 bg-default text-amber-50 items-center">
+        <div>YEP 2023</div>
+        <div>December 22, 2023</div>
+        <div>La Liga Filipina</div>
     </div>
   </nav>
   
