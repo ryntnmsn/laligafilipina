@@ -14,8 +14,8 @@
                     <div class="text-amber-50 bg-default text-2xl flex-1 text-center py-6 px-2 flex items-center justify-center">
                         2023 Year End Party
                     </div>
-                    <div class="text-amber-50 bg-default text-2xl flex-1 text-center py-6 flex items-center justify-center">
-                        Our Theme
+                    <div class="text-amber-50 bg-default text-2xl flex-1 text-center py-6 flex items-center justify-center relative">
+                        <a href="{{route('dress.index')}}" class="absolute top-0 left-0 bottom-0 right-0">Our Theme</a>
                     </div>
                 </div>
                 <p class="text-justify">
