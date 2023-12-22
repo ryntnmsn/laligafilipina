@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('contents')
+    <div class="mb-10">
+        <iframe width="100%" height="540" src="https://www.youtube.com/embed/dGpR7sJMGMw?si=_72OcMlK7jjIjijN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
     <div class="flex flex-col md:flex-row space-x-0 md:space-x-4">
         <div class="flex-1">
             <div class="mb-6">
@@ -56,4 +59,5 @@
             </div>
         </div>
     </div>
+    
 @endsection
