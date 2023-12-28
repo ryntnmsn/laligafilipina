@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\DressCode;
 use App\Models\Game;
+use App\Models\Media;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -35,7 +36,10 @@ class HomeController extends Controller
     }
 
     public function mediaIndex() {
-        return view('media');
+        $media = Media::all();
+        return view('media', [
+            'media' => $media
+        ]);
     }
 
     public function venueIndex() {

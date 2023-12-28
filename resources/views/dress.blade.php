@@ -3,8 +3,7 @@
 @section('contents')
     <div class="flex flex-col">
         <h1 class="text-default text-5xl mb-3">Dress Codes</h1>
-        <p>
-        </p>
+        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
             @foreach ($dressCodes as $dressCode)
                 <div class="bg-default h-auto md:h-96 w-full overflow-hidden flex items-start justify-center relative">
