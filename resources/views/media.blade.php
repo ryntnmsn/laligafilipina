@@ -2,7 +2,7 @@
 
 @section('contents')
     <div class="flex flex-col">
-        <h1 class="text-default text-5xl mb-3">Photoboot</h1>
+        <h1 class="text-default text-5xl mb-3">Photo Booth</h1>
         <div>
             <div class="grid grid-cols"></div>
         </div>
