@@ -14,7 +14,7 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
             @foreach ($media as $media)
-                <div class="bg-default h-auto md:h-96 w-full overflow-hidden flex items-start justify-center relative">
+                <div class="bg-default h-auto md:h-96 w-full overflow-hidden flex items-center justify-center relative">
                     <img src="{{ asset('storage/' . implode($media->image)) }}" alt="" class="block sepia opacity-40" loading="lazy">
                     <a href="{{ route('media.show', $media->slug) }}" class="absolute top-0 bottom-0 left-0 right-0 hover:bg-default duration-300 ease-in-out">
                         <div class="flex justify-center items-center h-full">
