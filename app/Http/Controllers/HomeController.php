@@ -36,9 +36,16 @@ class HomeController extends Controller
     }
 
     public function mediaIndex() {
-        $media = Media::where('name', 'Photobooth');
+        $media = Media::where('name', '!=', 'Event');
         return view('media', [
             'media' => $media->get()
+        ]);
+    }
+
+    public function mediaShow($slug) {
+        $media = Media::where('slug', $slug);
+        return view('media_single', [
+            'media' => $media->first()
         ]);
     }
 

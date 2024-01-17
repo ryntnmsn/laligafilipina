@@ -17,6 +17,7 @@ use Filament\Tables;
 use Filament\Tables\Columns\ImageColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
+use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
@@ -34,7 +35,18 @@ class MediaResource extends Resource
                     ->schema([
                         Section::make()
                             ->schema([
-                                TextInput::make('name'),
+                                TextInput::make('name')
+                                    ->required()
+                                    ->label('Department Name')
+                                    ->lazy()
+                                    ->afterStateUpdated(function ($set, $state) {
+                                        $slug = Str::slug($state);
+                                        $set('slug', $slug);
+                                    }),
+                                TextInput::make('slug')
+                                    ->unique(ignorable: fn ($record) => $record),
+                                TextInput::make('link')
+                                    ->label('Google Link'),
                                 FileUpload::make('image')
                                     ->required()
                                     ->multiple(),

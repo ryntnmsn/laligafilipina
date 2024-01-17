@@ -24,6 +24,7 @@ Route::controller(HomeController::class)->group(function () {
     Route::get('dress/{slug}', 'dressShow')->name('dress.show');
     Route::get('games', 'gamesIndex')->name('games.index');
     Route::get('media', 'mediaIndex')->name('media.index');
+    Route::get('media/{slug}', 'mediaShow')->name('media.show');
     Route::get('venue', 'venueIndex')->name('venue.index');
     Route::get('event', 'mediaEvent')->name('media.event');
 });
