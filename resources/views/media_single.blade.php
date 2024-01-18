@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('contents')
+
+
+
     <div class="flex flex-col">
         <h1 class="text-default text-4xl mb-3 mt-3 text-center">{{ $media->name }}</h1>
         
@@ -22,6 +25,7 @@
                 </div>
                 <div class="content" id="photobooth">
                     <img src="{{ url('storage/photo_booth.jpg') }}" alt="" class="w-full sepia">
+
                     <div class="mt-10 text-center">
                         <h1 class="text-xl">Photos Link:</h1><br>
                         <a class="text-xl bg-rose-600 text-yellow-50 px-10 py-3" target="__blank" href="
@@ -52,7 +56,7 @@
                     </div>
                 </div>
                 <div class="content" id="red_carpet">
-                    <img src="{{ url('storage/red_carpet.jpg') }}" alt="" class="w-full sepia">
+                   
                     <div class="mt-10 text-center">
                         <h1 class="text-xl">Photos Link:</h1><br>
                         <a class="text-xl bg-rose-600 text-yellow-50 px-10 py-3" target="__blank" href="
@@ -81,6 +85,18 @@
                             @endif
                         ">CLICK HERE</a>
                     </div>
+
+
+                    <div class="w-full mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        @if($media->slug == 'bhg-and-telfa')
+                            @foreach (File::glob('images/bhg_and_telfa/red_carpet/*') as $file)
+                                <img src="{{ url($file) }}">
+                            @endforeach
+                        @endif
+                    </div>
+
+
+                    
                 </div>
             </div>
         </div>
