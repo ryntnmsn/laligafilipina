@@ -28,25 +28,25 @@
                             @if($media->slug == 'marketing') {{-- marketing --}}
                                 //drive.google.com/drive/folders/1uxP1E5c2rGYSH_9263OuPE856A6CUgDx?usp=sharing
                             @elseif($media->slug == 'cs-and-operation')
-                               
+                                //drive.google.com/drive/folders/1tSdXQ7ubWO5bkoKv1kOZ6JlWMhHLnKDH?usp=sharing
                             @elseif($media->slug == 'bhg-and-telfa')
-
+                             //drive.google.com/drive/folders/1impaH2GORsMW92WqBNCO1MCVYjeviOVY?usp=sharing
                             @elseif($media->slug == 'committee')
-
+                                //drive.google.com/drive/folders/1l1dBYErhLjoD6HM3PTYXsymC3cUYdHt5?usp=sharing
                             @elseif($media->slug == 'it')
-
+                                //drive.google.com/drive/folders/13_uGQyBmCifnLGVxe9BJ7G1rn7peGdY5?usp=sharing
                             @elseif($media->slug == 'j9')
-
+                                //drive.google.com/drive/folders/1Xp6iMfO8R5TbSFCYuIYeUsNNME_bUChu?usp=sharing
                             @elseif($media->slug == 'ga-procurement-and-admin')
-                            
+                                //drive.google.com/drive/folders/1FzgiR9oPGUpWdJ7nHDqYXoxuipgWZG-A?usp=sharing
                             @elseif($media->slug == 'visa-and-recruitment')
-
+                                //drive.google.com/drive/folders/1GXOe4AvDezWsy7F9g0zPRu0PVNKrSR6P?usp=sharing
                             @elseif($media->slug == 'hr')
-
+                                //drive.google.com/drive/folders/1PeuZX3JoWKBC25sh2x-wpbJi8PVGZj9y?usp=sharing
                             @elseif($media->slug == 'legal')
-
+                                //drive.google.com/drive/folders/10qmItl8H1ymnI0b_xaZC-XDmc81gH57u?usp=sharing
                             @elseif($media->slug == 'oceanic-and-ms')
-                                
+                                //drive.google.com/drive/folders/1BrnCN94_vuC-CoVgM3C2WGUVD093uhkH?usp=sharing
                             @endif
                         ">CLICK HERE</a>
                     </div>
@@ -59,25 +59,25 @@
                             @if($media->slug == 'marketing') {{-- marketing --}}
                                 //drive.google.com/drive/folders/1KmXjVmuxn0PFfXTKICAL3oVHbJ8BEsJC?usp=sharing
                             @elseif($media->slug == 'cs-and-operation')
-                               
+                                //drive.google.com/drive/folders/1HJ9B44oDR3NGtpMIQaPqcHpCKGZ7pI0r?usp=sharing
                             @elseif($media->slug == 'bhg-and-telfa')
-
+                                //drive.google.com/drive/folders/1OP-FlPV-MQDnnwRxNS3R1R7QkgI7nZgo?usp=sharing
                             @elseif($media->slug == 'committee')
-
+                                //drive.google.com/drive/folders/1l1dBYErhLjoD6HM3PTYXsymC3cUYdHt5?usp=sharing
                             @elseif($media->slug == 'it')
-
+                                //drive.google.com/drive/folders/1Buuoy8hoICS-Wr2QLws-gVs8F0q0E0c6?usp=sharing
                             @elseif($media->slug == 'j9')
-
+                                //drive.google.com/drive/folders/1Rja5AHz6o6CMnHXzLYNv62y_4anqhpLZ?usp=sharing
                             @elseif($media->slug == 'ga-procurement-and-admin')
-                            
+                                //drive.google.com/drive/folders/1RqhTii-tK9RW1CGL5DDqGEspuaZ3-nrC?usp=sharing
                             @elseif($media->slug == 'visa-and-recruitment')
-
+                                //drive.google.com/drive/folders/1cPpoRt2aWCaf2LHaqAEbioMSdi5bTEwm?usp=sharing
                             @elseif($media->slug == 'hr')
-
+                                //drive.google.com/drive/folders/1GUNG6YStvU3mOgHKQ-uvXc7mTTbayaeK?usp=sharing
                             @elseif($media->slug == 'legal')
-
+                                //drive.google.com/drive/folders/1_CEcQzuDQ8gNF25JdeIxf2Muif7f4N6S?usp=sharing
                             @elseif($media->slug == 'oceanic-and-ms')
-                                
+                                //drive.google.com/drive/folders/11I1adOiIZ6RLwrYv9w5OQy4W104DzwJC?usp=sharing
                             @endif
                         ">CLICK HERE</a>
                     </div>
