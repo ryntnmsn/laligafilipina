@@ -33,3 +33,31 @@ html, body {
 main {
     padding-top:40px
 }
+
+
+.wrapper {
+  width: 100%;
+}
+
+.buttonWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+button.active {
+  background-color: rgb(71 54 40);
+  color:#ffffff;
+}
+
+.active {
+  background-color: transparent
+}
+
+
+.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
+}
