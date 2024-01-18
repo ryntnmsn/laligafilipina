@@ -12,26 +12,15 @@
         </div>
 
         <div>
-            <div class="grid grid-cols"></div>
-        </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-8">
-            @php
-                $images = [];
-                foreach ($media as $data) {
-                    foreach ($data->image as $key => $image) {
-                        $images[] = $image;
-                    }
-                }
-            @endphp
-
-            @foreach ($images as $image)
-                <div class="flex items-center border border-default duration-300 ease-in-out hover:-translate-y-2 cursor-pointer bg-default group">
-                    <a href="{{ asset('storage/' . $image) }}" data-lightbox="{{ $image }}" data-fslightbox class="flex items-center">
-                        <img src="{{ asset('storage/' . $image) }}" data-lightbox="{{ $image }}" alt="" class="h-auto" loading="lazy">
-                    </a>
-                </div>
+            @foreach ($media as $media)
+                <img src="{{ url('storage/' . implode($media->image)) }}" alt="" class="w-full sepia">
             @endforeach
-        </div>
+       </div>
+
+       <div class="mt-10 text-center">
+            <h1 class="text-xl">Photos Link:</h1><br>
+            <a class="text-xl bg-rose-600 text-yellow-50 px-10 py-3" href="{{ $media->link }}">CLICK HERE</a>
+       </div>
         
     </div>
 @endsection

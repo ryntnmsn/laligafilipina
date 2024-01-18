@@ -50,7 +50,7 @@ class HomeController extends Controller
     }
 
     public function mediaEvent() {
-        $media = Media::where('name', 'event');
+        $media = Media::where('name', 'Event');
         return view('event', [
             'media' => $media->get()
         ]);
