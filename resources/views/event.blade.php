@@ -11,7 +11,7 @@
             </a>
         </div>
 
-        <div>
+        <div class="mt-10">
             @foreach ($media as $media)
                 <img src="{{ url('storage/' . implode($media->image)) }}" alt="" class="w-full sepia">
             @endforeach
