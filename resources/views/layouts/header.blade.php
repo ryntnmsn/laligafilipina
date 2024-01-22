@@ -32,7 +32,7 @@
                 <li class="flex-1 text-center hover:bg-default hover:text-amber-50 duration-200 ease-in-out {{ request()->is('games') ? 'bg-default text-amber-50' : '' }}">
                     <a href="{{ route('games.index') }}" class="block py-3 px-3">Games</a>
                 </li>
-                <li class="flex-1 text-center hover:bg-default hover:text-amber-50 duration-200 ease-in-out {{ request()->is('media') ? 'bg-default text-amber-50' : '' }}">
+                <li class="flex-1 text-center hover:bg-default hover:text-amber-50 duration-200 ease-in-out {{ request()->is('media*') ? 'bg-default text-amber-50' : '' }}">
                     <a href="{{ route('media.index') }}" class="block py-3 px-3">Media</a>
                 </li>
                 <li class="flex-1 text-center hover:bg-default hover:text-amber-50 duration-200 ease-in-out {{ request()->is('venue') ? 'bg-default text-amber-50' : '' }}">

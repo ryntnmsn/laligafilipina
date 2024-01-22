@@ -16,7 +16,7 @@
             <div class="contentWrapper mt-5">
                 <div class="content active" id="group_photo">
                     <div>
-                        <img src="{{ url('storage/' . implode($media->image)) }}" alt="" class="w-full sepia">
+                        <img src="{{ url('storage/' . implode($media->image)) }}" alt="" class="w-full">
                         <div class="mt-10 text-center">
                             <h1 class="text-xl">Photos Link:</h1><br>
                             <a class="text-xl bg-rose-600 text-yellow-50 px-10 py-3" href="{{ $media->link }}">CLICK HERE</a>
@@ -26,7 +26,6 @@
 
                 {{-- PHOTOBOOTH --}}
                 <div class="content" id="photobooth">
-                    <img src="{{ url('storage/photo_booth.jpg') }}" alt="" class="w-full sepia">
                     <div class="mt-10 text-center">
                         <h1 class="text-xl">For High Resolution Photos</h1><br>
                         <a class="text-xl bg-rose-600 text-yellow-50 px-10 py-3" target="__blank" href="
@@ -55,6 +54,49 @@
                             @endif
                         ">CLICK HERE</a>
                     </div>
+
+                    <div class="w-full mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        @if($media->slug == 'marketing') {{-- marketing --}}
+                            @foreach (File::glob('images/marketing/pb/*') as $file)
+                                <img src="{{ url($file) }}">
+                            @endforeach
+                        @elseif($media->slug == 'cs-and-operation')
+                            @foreach (File::glob('images/cs_and_operation/pb/*') as $file)
+                                <img src="{{ url($file) }}">
+                            @endforeach
+                        @elseif($media->slug == 'bhg-and-telfa')
+                            @foreach (File::glob('images/bhg_and_telfa/pb/*') as $file)
+                                <img src="{{ url($file) }}">
+                            @endforeach
+                        @elseif($media->slug == 'committee')
+                            @foreach (File::glob('images/committee/pb/*') as $file)
+                                <img src="{{ url($file) }}">
+                            @endforeach
+                        @elseif($media->slug == 'it')
+                            @foreach (File::glob('images/it/pb/*') as $file)
+                                <img src="{{ url($file) }}">
+                            @endforeach
+                        @elseif($media->slug == 'ga-procurement-and-admin')
+                            @foreach (File::glob('images/ga_procurement_and_admin/pb/*') as $file)
+                                <img src="{{ url($file) }}">
+                            @endforeach
+                        @elseif($media->slug == 'visa-and-recruitment')
+                            @foreach (File::glob('images/visa_and_recruitment/pb/*') as $file)
+                                <img src="{{ url($file) }}">
+                            @endforeach
+                        @elseif($media->slug == 'hr')
+                            @foreach (File::glob('images/hr/pb/*') as $file)
+                                <img src="{{ url($file) }}">
+                            @endforeach
+                        @elseif($media->slug == 'oceanic-and-ms')
+                            @foreach (File::glob('images/oceanic/pb/*') as $file)
+                                <img src="{{ url($file) }}">
+                            @endforeach
+                        @endif
+                    </div>
+
+
+
                 </div>
 
                 {{-- RED CARPET --}}

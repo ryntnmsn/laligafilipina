@@ -9,9 +9,6 @@
             </a>
         </div>
         
-        <div>
-            <div class="grid grid-cols"></div>
-        </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
             @foreach ($media as $media)
                 <div class="bg-default h-auto md:h-96 w-full overflow-hidden flex items-center justify-center relative">
@@ -24,10 +21,6 @@
                 </div>
             @endforeach
         </div>
-
-
-
-
 
 
 
