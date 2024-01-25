@@ -17,7 +17,7 @@
         </div>
 
         <div class="mt-10 text-center">
-            <h1 class="text-xl">For High Resolution Photos:</h1><br>
+            <h1 class="text-xl">For High Resolution Photos and Video</h1><br>
             <a class="text-xl bg-rose-600 text-yellow-50 px-10 py-3" href="//drive.google.com/drive/folders/19jRRTBA_HZbtpA4xNRJHnNcweYX6uqua?usp=sharing">CLICK HERE</a>
         </div>
 
