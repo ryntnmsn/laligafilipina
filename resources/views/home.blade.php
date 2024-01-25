@@ -33,7 +33,7 @@
                 <a href="{{ route('event.awardees') }}">
                     <img src="{{ url('images/awardees.jpg') }}" alt="" loading='lazy'>
                 </a>
-                <h1 class="text-default font-bold text-4xl mb-5">
+                <h1 class="text-default font-bold text-4xl mb-5 pt-4">
                     Celebrating Service Excellence - Tributes to Our Loyal Awardees
                 </h1>
                 <p class="text-default text-justify text-xl font-bold">
