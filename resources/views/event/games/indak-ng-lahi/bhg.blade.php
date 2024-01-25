@@ -16,7 +16,6 @@
             <h1 class="text-5xl">Team BHG</h1>
         </div>
 
-
         <div class="mt-10 text-center">
             <h1 class="text-xl">For High Resolution Photos</h1><br>
             <a class="text-xl bg-rose-600 text-yellow-50 px-10 py-3" href="//drive.google.com/drive/folders/1C6HwYPKUvUF21jEP0GuK9PMxXJd2SKgv?usp=sharing">CLICK HERE</a>

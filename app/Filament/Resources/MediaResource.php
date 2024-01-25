@@ -37,14 +37,8 @@ class MediaResource extends Resource
                             ->schema([
                                 TextInput::make('name')
                                     ->required()
-                                    ->label('Department Name')
-                                    ->lazy()
-                                    ->afterStateUpdated(function ($set, $state) {
-                                        $slug = Str::slug($state);
-                                        $set('slug', $slug);
-                                    }),
-                                TextInput::make('slug')
-                                    ->unique(ignorable: fn ($record) => $record),
+                                    ->label('Department Name'),
+                                TextInput::make('slug'),
                                 TextInput::make('link')
                                     ->label('Google Link'),
                                 FileUpload::make('image')
