@@ -15,12 +15,38 @@
             </div>
             <div class="contentWrapper mt-5">
                 <div class="content active" id="group_photo">
-                    <div>
-                        <img src="{{ url('storage/' . implode($media->image)) }}" alt="" class="w-full">
-                        <div class="mt-10 text-center">
-                            <h1 class="text-xl">Photos Link:</h1><br>
-                            <a class="text-xl bg-rose-600 text-yellow-50 px-10 py-3" href="{{ $media->link }}">CLICK HERE</a>
-                        </div>
+                    <div class="my-10 text-center">
+                        <h1 class="text-xl">For High Resolution Photos</h1><br>
+                        <a class="text-xl bg-rose-600 text-yellow-50 px-10 py-3" href="{{ $media->link }}">CLICK HERE</a>
+                    </div>
+
+                    <div class="pt-5">
+                            @if($media->slug == 'marketing') {{-- marketing --}}
+                                <iframe width="100%" height="640" src="https://www.youtube.com/embed/Gw7gYDYyrQE?si=ty8NHisD03g1omlm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            @elseif($media->slug == 'cs-and-operation')
+                                <iframe width="100%" height="640" src="https://www.youtube.com/embed/OpuiEYWPxV0?si=VGwFwm1QHy5U-yib" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            @elseif($media->slug == 'bhg-and-telfa')
+                                <iframe width="100%" height="640" src="https://www.youtube.com/embed/dttm7KSxn2Y?si=43bvuTyZIdJk2EmZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            @elseif($media->slug == 'committee')
+                                <iframe width="100%" height="640" src="https://www.youtube.com/embed/8qjXSjCor6w?si=OwscX5LRMF9jWQsm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            @elseif($media->slug == 'it')
+                                <iframe width="100%" height="640" src="https://www.youtube.com/embed/RkPp_6amUrc?si=a2MfcMwFmaejg0JO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            @elseif($media->slug == 'j9')
+                                <iframe width="100%" height="640" src="https://www.youtube.com/embed/3wudeFtbFQ8?si=jdXqzv8xu5N6hVvS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            @elseif($media->slug == 'ga-procurement-and-admin')
+                                <iframe width="100%" height="640" src="https://www.youtube.com/embed/tvkXfVysSeI?si=GX2G36e-A3FFgRSB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            @elseif($media->slug == 'visa-and-recruitment')
+                                <iframe width="100%" height="640" src="https://www.youtube.com/embed/FCTiJAOYOeA?si=LR_08-TcmuKN8njO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            @elseif($media->slug == 'hr')
+                                <iframe width="100%" height="640" src="https://www.youtube.com/embed/8qjXSjCor6w?si=OwscX5LRMF9jWQsm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            @elseif($media->slug == 'legal')
+                                <iframe width="100%" height="640" src="https://www.youtube.com/embed/Npq1vpXQBiI?si=s788XLbUiqUi_73i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            @elseif($media->slug == 'oceanic-and-ms')
+                                <iframe width="100%" height="640" src="https://www.youtube.com/embed/vHhxAT0DLIg?si=_yHE7kBsTXKgKwYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            @endif
+
+                        <img src="{{ url('storage/' . implode($media->image)) }}" alt="" class="w-full mt-10">
+                        
                     </div>
                 </div>
 

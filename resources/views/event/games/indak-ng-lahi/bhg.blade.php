@@ -18,8 +18,12 @@
 
 
         <div class="mt-10 text-center">
-            <h1 class="text-xl">For more photos:</h1><br>
+            <h1 class="text-xl">For High Resolution Photos</h1><br>
             <a class="text-xl bg-rose-600 text-yellow-50 px-10 py-3" href="//drive.google.com/drive/folders/1C6HwYPKUvUF21jEP0GuK9PMxXJd2SKgv?usp=sharing">CLICK HERE</a>
+        </div>
+
+        <div class="mt-10">
+            <iframe width="100%" height="640" src="https://www.youtube.com/embed/CsFx_pqtm0w?si=jrLdDhl1q9dQQYSH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
         <div class="mt-10">
