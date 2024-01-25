@@ -18,14 +18,14 @@
 
 
         <div class="mt-10 text-center">
-            <h1 class="text-xl">For more photos:</h1><br>
+            <h1 class="text-xl">For High Resolution Photos and Videos</h1><br>
             <a class="text-xl bg-rose-600 text-yellow-50 px-10 py-3" href="//drive.google.com/drive/folders/19jHYP97T_OeiRjP7yljrQh7pj8EKCunY?usp=sharing">CLICK HERE</a>
         </div>
 
         <div class="mt-10">
             <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-                <img src="{{ url('images/raffles/50k/50k4.jpg') }}">
-                <img src="{{ url('images/raffles/50k/50k5.jpg') }}">
+                <img src="{{ url('images/raffles/50k/50k4.jpg') }}" loading='lazy'>
+                <img src="{{ url('images/raffles/50k/50k5.jpg') }}" loading='lazy'>
             </div>
        </div>
 

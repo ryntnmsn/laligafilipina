@@ -14,6 +14,7 @@
 
     <main>
         <div class="max-w-screen-xl mx-auto xl:px-0 lg:px-4 px-4">
+            
             @yield('contents')
         </div>
     </main>

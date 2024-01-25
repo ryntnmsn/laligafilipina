@@ -18,18 +18,18 @@
 
 
         <div class="mt-10 text-center">
-            <h1 class="text-xl">For more photos:</h1><br>
+            <h1 class="text-xl">For High Resolution Photos and Videos</h1><br>
             <a class="text-xl bg-rose-600 text-yellow-50 px-10 py-3" href="//drive.google.com/drive/folders/1q5xd7UCFsnsLeZBH-M27R0QF5jF65-Lh?usp=sharing">CLICK HERE</a>
         </div>
 
         <div class="mt-10">
             <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <img src="{{ url('images/games/pagsusulit/pagsusulit01.jpg') }}">
-                <img src="{{ url('images/games/pagsusulit/pagsusulit02.jpg') }}">
-                <img src="{{ url('images/games/pagsusulit/pagsusulit03.jpg') }}">
-                <img src="{{ url('images/games/pagsusulit/pagsusulit04.jpg') }}">
-                <img src="{{ url('images/games/pagsusulit/pagsusulit05.jpg') }}">
-                <img src="{{ url('images/games/pagsusulit/pagsusulit06.jpg') }}">
+                <img src="{{ url('images/games/pagsusulit/pagsusulit01.jpg') }}" loading='lazy'>
+                <img src="{{ url('images/games/pagsusulit/pagsusulit02.jpg') }}" loading='lazy'>
+                <img src="{{ url('images/games/pagsusulit/pagsusulit03.jpg') }}" loading='lazy'>
+                <img src="{{ url('images/games/pagsusulit/pagsusulit04.jpg') }}" loading='lazy'>
+                <img src="{{ url('images/games/pagsusulit/pagsusulit05.jpg') }}" loading='lazy'>
+                <img src="{{ url('images/games/pagsusulit/pagsusulit06.jpg') }}" loading='lazy'>
             </div>
        </div>
 

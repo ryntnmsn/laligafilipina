@@ -18,18 +18,18 @@
 
 
         <div class="mt-10 text-center">
-            <h1 class="text-xl">For more photos:</h1><br>
+            <h1 class="text-xl">For High Resolution Photos and Videos</h1><br>
             <a class="text-xl bg-rose-600 text-yellow-50 px-10 py-3" href="//drive.google.com/drive/folders/1q-kLG2WIJamNjd4HBJY-bPJ2dC02Cryz?usp=drive_link">CLICK HERE</a>
         </div>
 
         <div class="mt-10">
             <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <img src="{{ url('images/candid/candid1.jpg') }}">
-                <img src="{{ url('images/candid/candid2.jpg') }}">
-                <img src="{{ url('images/candid/candid3.jpg') }}">
-                <img src="{{ url('images/candid/candid4.jpg') }}">
-                <img src="{{ url('images/candid/candid5.jpg') }}">
-                <img src="{{ url('images/candid/candid6.jpg') }}">
+                <img src="{{ url('images/candid/candid1.jpg') }}" loading='lazy'>
+                <img src="{{ url('images/candid/candid2.jpg') }}" loading='lazy'>
+                <img src="{{ url('images/candid/candid3.jpg') }}" loading='lazy'>
+                <img src="{{ url('images/candid/candid4.jpg') }}" loading='lazy'>
+                <img src="{{ url('images/candid/candid5.jpg') }}" loading='lazy'>
+                <img src="{{ url('images/candid/candid6.jpg') }}" loading='lazy'>
             </div>
        </div>
 

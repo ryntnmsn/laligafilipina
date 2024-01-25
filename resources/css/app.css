@@ -62,5 +62,14 @@ button.active {
   display: block;
 }
 
+.blink-bg{
+  animation: blinkingBackground 2s infinite;
+}
 
-
+@keyframes blinkingBackground{
+  0%		{ color: rgb(225 29 72);}
+  25%		{ color: #0b0f14;}
+  50%		{ color: rgb(225 29 72)}
+  75%		{ color: #0b0f14;;}
+  100%	{ color: rgb(225 29 72);}
+}

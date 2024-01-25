@@ -84,39 +84,39 @@
                     <div class="w-full mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                         @if($media->slug == 'marketing') {{-- marketing --}}
                             @foreach (File::glob('images/marketing/pb/*') as $file)
-                                <img src="{{ url($file) }}">
+                                <img src="{{ url($file) }}" loading='lazy'>
                             @endforeach
                         @elseif($media->slug == 'cs-and-operation')
                             @foreach (File::glob('images/cs_and_operation/pb/*') as $file)
-                                <img src="{{ url($file) }}">
+                                <img src="{{ url($file) }}" loading='lazy'>
                             @endforeach
                         @elseif($media->slug == 'bhg-and-telfa')
                             @foreach (File::glob('images/bhg_and_telfa/pb/*') as $file)
-                                <img src="{{ url($file) }}">
+                                <img src="{{ url($file) }}" loading='lazy'>
                             @endforeach
                         @elseif($media->slug == 'committee')
                             @foreach (File::glob('images/committee/pb/*') as $file)
-                                <img src="{{ url($file) }}">
+                                <img src="{{ url($file) }}" loading='lazy'>
                             @endforeach
                         @elseif($media->slug == 'it')
                             @foreach (File::glob('images/it/pb/*') as $file)
-                                <img src="{{ url($file) }}">
+                                <img src="{{ url($file) }}" loading='lazy'>
                             @endforeach
                         @elseif($media->slug == 'ga-procurement-and-admin')
                             @foreach (File::glob('images/ga_procurement_and_admin/pb/*') as $file)
-                                <img src="{{ url($file) }}">
+                                <img src="{{ url($file) }}" loading='lazy'>
                             @endforeach
                         @elseif($media->slug == 'visa-and-recruitment')
                             @foreach (File::glob('images/visa_and_recruitment/pb/*') as $file)
-                                <img src="{{ url($file) }}">
+                                <img src="{{ url($file) }}" loading='lazy'>
                             @endforeach
                         @elseif($media->slug == 'hr')
                             @foreach (File::glob('images/hr/pb/*') as $file)
-                                <img src="{{ url($file) }}">
+                                <img src="{{ url($file) }}" loading='lazy'>
                             @endforeach
                         @elseif($media->slug == 'oceanic-and-ms')
                             @foreach (File::glob('images/oceanic/pb/*') as $file)
-                                <img src="{{ url($file) }}">
+                                <img src="{{ url($file) }}" loading='lazy'>
                             @endforeach
                         @endif
                     </div>

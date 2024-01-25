@@ -63,7 +63,7 @@
                     <img src="{{ url('images/games/indak-ng-lahi/bhg/bhg2.jpg') }}" alt="" class="block sepia opacity-40" loading="lazy">
                     <a href="{{ route('event.games.bhg') }}" class="absolute top-0 bottom-0 left-0 right-0 hover:bg-default duration-300 ease-in-out">
                         <div class="flex justify-center items-center h-full">
-                            <h1 class="text-amber-50 text-3xl md:text-5xl bg-default/[.80] p-4 leading-none text-center">Team BHG</h1>
+                            <h1 class="text-amber-50 text-3xl md:text-5xl bg-default/[.80] p-4 leading-none text-center">Ingat Yaman Group</h1>
                         </div>
                     </a>
                 </div>
