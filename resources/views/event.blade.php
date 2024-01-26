@@ -34,7 +34,7 @@
                     </a>
                 </div>
 
-                {{-- CANDID --}}
+                {{-- CANDID 
                 <div class="bg-default h-auto md:h-96 w-full overflow-hidden flex items-center justify-center relative">
                     <img src="{{ url('images/candid.jpg') }}" alt="" class="block sepia opacity-40" loading="lazy">
                     <a href="{{ route('event.candid') }}" class="absolute top-0 bottom-0 left-0 right-0 hover:bg-default duration-300 ease-in-out">
@@ -42,7 +42,7 @@
                             <h1 class="text-amber-50 text-3xl md:text-5xl bg-default/[.80] p-4 leading-none text-center">Candid</h1>
                         </div>
                     </a>
-                </div>
+                </div>--}}
 
                  {{-- GAMES --}}
                  <div class="bg-default h-auto md:h-96 w-full overflow-hidden flex items-center justify-center relative">
