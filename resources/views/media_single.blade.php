@@ -9,7 +9,7 @@
         
         <div class="wrapper mt-10">
             <div class="buttonWrapper border-b-4 border-default bg-default/[.20]">
-                <button class="tab-button active py-5 text-2xl hover:bg-default text-default hover:text-yellow-50" data-id="group_photo">Group Photo</button>
+                <button class="tab-button active py-5 text-2xl hover:bg-default text-default hover:text-yellow-50" data-id="group_photo">Highlight Video</button>
                 <button class="tab-button py-5 text-2xl hover:bg-default text-default hover:text-yellow-50" data-id="photobooth">Photo Booth</button>
                 <button class="tab-button py-5 text-2xl hover:bg-default text-default hover:text-yellow-50" data-id="red_carpet">Red Carpet</button>
             </div>
